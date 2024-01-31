@@ -9,9 +9,9 @@ def read_json(file_path):
 
 # Function to send SMS
 def send_sms(phone_number, message):
-    # Replace with your Twilio Account SID, Auth Token, and Twilio phone number
+    # Twilio Account SID, Auth Token, and Twilio phone number
     account_sid = 'ACed274781e7c0e01756f7ffa3539000b2'
-    auth_token = 'dc2dc323fa94fe9d501971fd0ab0fdca'
+    auth_token = 'c1d3c0b18b58dd1a8134ee58d9c264ed'
     from_number = '+447488891405'
 
     client = Client(account_sid, auth_token)
